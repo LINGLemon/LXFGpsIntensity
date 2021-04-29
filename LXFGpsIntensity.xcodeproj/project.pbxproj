@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEB210AC26397BFC00793DE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB210AB26397BFC00793DE5 /* AppDelegate.m */; };
+		BEB210AF26397BFC00793DE5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB210AE26397BFC00793DE5 /* SceneDelegate.m */; };
+		BEB210B226397BFC00793DE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB210B126397BFC00793DE5 /* ViewController.m */; };
+		BEB210B526397BFC00793DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB210B326397BFC00793DE5 /* Main.storyboard */; };
+		BEB210B726397C0000793DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB210B626397C0000793DE5 /* Assets.xcassets */; };
+		BEB210BA26397C0000793DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB210B826397C0000793DE5 /* LaunchScreen.storyboard */; };
+		BEB210BD26397C0000793DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB210BC26397C0000793DE5 /* main.m */; };
+		BEB210CE26397C7800793DE5 /* LXFGPSIntensityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB210C826397C7800793DE5 /* LXFGPSIntensityManager.m */; };
+		BEB210CF26397C7800793DE5 /* LXFGPSView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB210C926397C7800793DE5 /* LXFGPSView.m */; };
+		BEB210D026397C7800793DE5 /* LXFGPSView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEB210CB26397C7800793DE5 /* LXFGPSView.xib */; };
+		BEB210D326397D0C00793DE5 /* LXFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB210D226397D0C00793DE5 /* LXFColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEB210A726397BFC00793DE5 /* LXFGpsIntensity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFGpsIntensity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB210AA26397BFC00793DE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEB210AB26397BFC00793DE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEB210AD26397BFC00793DE5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BEB210AE26397BFC00793DE5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BEB210B026397BFC00793DE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEB210B126397BFC00793DE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEB210B426397BFC00793DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEB210B626397C0000793DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEB210B926397C0000793DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEB210BB26397C0000793DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB210BC26397C0000793DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEB210C526397C7800793DE5 /* LXFGPSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFGPSView.h; sourceTree = "<group>"; };
+		BEB210C626397C7800793DE5 /* LXFGPSIntensityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFGPSIntensityManager.h; sourceTree = "<group>"; };
+		BEB210C826397C7800793DE5 /* LXFGPSIntensityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFGPSIntensityManager.m; sourceTree = "<group>"; };
+		BEB210C926397C7800793DE5 /* LXFGPSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFGPSView.m; sourceTree = "<group>"; };
+		BEB210CB26397C7800793DE5 /* LXFGPSView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFGPSView.xib; sourceTree = "<group>"; };
+		BEB210D126397D0C00793DE5 /* LXFColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXFColor.h; sourceTree = "<group>"; };
+		BEB210D226397D0C00793DE5 /* LXFColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXFColor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEB210A426397BFC00793DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEB2109E26397BFC00793DE5 = {
+			isa = PBXGroup;
+			children = (
+				BEB210A926397BFC00793DE5 /* LXFGpsIntensity */,
+				BEB210A826397BFC00793DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB210A826397BFC00793DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB210A726397BFC00793DE5 /* LXFGpsIntensity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB210A926397BFC00793DE5 /* LXFGpsIntensity */ = {
+			isa = PBXGroup;
+			children = (
+				BEB210C326397C7800793DE5 /* LXFGPSView */,
+				BEB210AA26397BFC00793DE5 /* AppDelegate.h */,
+				BEB210AB26397BFC00793DE5 /* AppDelegate.m */,
+				BEB210AD26397BFC00793DE5 /* SceneDelegate.h */,
+				BEB210AE26397BFC00793DE5 /* SceneDelegate.m */,
+				BEB210B026397BFC00793DE5 /* ViewController.h */,
+				BEB210B126397BFC00793DE5 /* ViewController.m */,
+				BEB210B326397BFC00793DE5 /* Main.storyboard */,
+				BEB210B626397C0000793DE5 /* Assets.xcassets */,
+				BEB210B826397C0000793DE5 /* LaunchScreen.storyboard */,
+				BEB210BB26397C0000793DE5 /* Info.plist */,
+				BEB210BC26397C0000793DE5 /* main.m */,
+			);
+			path = LXFGpsIntensity;
+			sourceTree = "<group>";
+		};
+		BEB210C326397C7800793DE5 /* LXFGPSView */ = {
+			isa = PBXGroup;
+			children = (
+				BEB210C526397C7800793DE5 /* LXFGPSView.h */,
+				BEB210C926397C7800793DE5 /* LXFGPSView.m */,
+				BEB210CB26397C7800793DE5 /* LXFGPSView.xib */,
+				BEB210C626397C7800793DE5 /* LXFGPSIntensityManager.h */,
+				BEB210C826397C7800793DE5 /* LXFGPSIntensityManager.m */,
+				BEB210D126397D0C00793DE5 /* LXFColor.h */,
+				BEB210D226397D0C00793DE5 /* LXFColor.m */,
+			);
+			path = LXFGPSView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB210A626397BFC00793DE5 /* LXFGpsIntensity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB210C026397C0000793DE5 /* Build configuration list for PBXNativeTarget "LXFGpsIntensity" */;
+			buildPhases = (
+				BEB210A326397BFC00793DE5 /* Sources */,
+				BEB210A426397BFC00793DE5 /* Frameworks */,
+				BEB210A526397BFC00793DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFGpsIntensity;
+			productName = LXFGpsIntensity;
+			productReference = BEB210A726397BFC00793DE5 /* LXFGpsIntensity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB2109F26397BFC00793DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BEB210A626397BFC00793DE5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BEB210A226397BFC00793DE5 /* Build configuration list for PBXProject "LXFGpsIntensity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEB2109E26397BFC00793DE5;
+			productRefGroup = BEB210A826397BFC00793DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB210A626397BFC00793DE5 /* LXFGpsIntensity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB210A526397BFC00793DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB210D026397C7800793DE5 /* LXFGPSView.xib in Resources */,
+				BEB210BA26397C0000793DE5 /* LaunchScreen.storyboard in Resources */,
+				BEB210B726397C0000793DE5 /* Assets.xcassets in Resources */,
+				BEB210B526397BFC00793DE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB210A326397BFC00793DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB210CE26397C7800793DE5 /* LXFGPSIntensityManager.m in Sources */,
+				BEB210B226397BFC00793DE5 /* ViewController.m in Sources */,
+				BEB210AC26397BFC00793DE5 /* AppDelegate.m in Sources */,
+				BEB210CF26397C7800793DE5 /* LXFGPSView.m in Sources */,
+				BEB210D326397D0C00793DE5 /* LXFColor.m in Sources */,
+				BEB210BD26397C0000793DE5 /* main.m in Sources */,
+				BEB210AF26397BFC00793DE5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEB210B326397BFC00793DE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB210B426397BFC00793DE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEB210B826397C0000793DE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB210B926397C0000793DE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEB210BE26397C0000793DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEB210BF26397C0000793DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB210C126397C0000793DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6RTP7B9HD;
+				INFOPLIST_FILE = LXFGpsIntensity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.LXFGpsIntensity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEB210C226397C0000793DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6RTP7B9HD;
+				INFOPLIST_FILE = LXFGpsIntensity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.LXFGpsIntensity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB210A226397BFC00793DE5 /* Build configuration list for PBXProject "LXFGpsIntensity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB210BE26397C0000793DE5 /* Debug */,
+				BEB210BF26397C0000793DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB210C026397C0000793DE5 /* Build configuration list for PBXNativeTarget "LXFGpsIntensity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB210C126397C0000793DE5 /* Debug */,
+				BEB210C226397C0000793DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB2109F26397BFC00793DE5 /* Project object */;
+}
